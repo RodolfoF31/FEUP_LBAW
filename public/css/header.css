@@ -1,0 +1,160 @@
+
+/*
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #403E3E;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 8vh;
+    margin: 0;
+    padding: 0px 1em 0px 1em;
+    position: relative;
+    z-index: 1;
+}
+
+.header input{
+    font-family: "Teachers", sans-serif;
+    width: 13vw;
+    height: 65%;
+    margin: 0;
+    padding: 0 0 0 60px;
+    background-color: #5F5F5F;
+    background-image: url('/svg/search.svg');
+    background-repeat: no-repeat;
+    background-size: 35px 35px;
+    background-position: 15px center;
+    outline: none;
+    border: none;
+    color: #FFFFFF;
+    font-size: 1.5em;
+    transition: background-position 0.4s ease-in-out, width 0.4s ease-in-out; 
+}
+
+.header input:hover,
+.header input:focus{
+    width: 30vw;
+    /*
+        padding-left: 10px;
+        background-image: none;
+        background-position: -20px center; }
+    */
+/*
+
+.main-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 15px;
+    width: 76%;
+    height: 100%;
+}
+
+.main-buttons button{
+    font-family: "Teachers", sans-serif;
+    font-weight: 400;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;    
+    border: none;
+    font-size: 1.2em;
+    transition: 0.4s ease-in-out;
+}
+
+.main-buttons button:hover{
+    color: rgb(172, 164, 155);
+}
+
+.left-side-buttons{
+    height: 100%;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+
+.left-side-buttons a:not(:last-child){
+    padding-right: 40px;
+    margin-left: 40px;
+
+    border-right: solid #202020;
+    border-width: 3px;
+    border-radius: 0;
+}
+
+.left-side-buttons a:last-child{
+    margin-left: 40px;
+}
+
+
+
+.right-side-buttons{
+    height: 100%;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.right-side-buttons button:not(:last-child){
+    margin-left: 40px;
+    padding-right: 40px;
+    border-right: solid #202020;
+    border-width: 3px;
+    border-radius: 0;
+}
+
+.right-side-buttons button:first-child{
+    margin-left: 0;
+}
+
+.right-side-buttons button:last-child{
+    margin-left: 40px;
+}
+
+.main-buttons img{
+    z-index: 9999;
+    margin: 140px 0 0 0;
+    padding: 0;
+    width: 300px;
+    height: 300px;
+    flex-shrink: 0;
+    object-fit: contain;
+    user-select: none;
+}
+
+.main-buttons a{
+    padding: 0;
+}
+
+.logout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: auto;
+    aspect-ratio: 1/1;
+}
+
+*/
+
+.animated-arrow{
+    width: 60%;
+    height: 60%;
+}
+
+
+.animated-arrow .arrow {
+    transition: transform 0.3s ease-in-out;
+}
+
+.logout:hover .arrow {
+    transform: translateX(-4px); /* Animate arrow on hover */
+}

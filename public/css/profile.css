@@ -1,0 +1,253 @@
+
+
+/*
+
+
+body{
+    overflow: hidden;
+}
+
+
+.container{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    background-color: D9D9D9;
+    max-width: 100%;
+    /* z-index: -1; 
+}
+
+
+.userInfo{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    background-color: #B5B5B5;
+}
+
+.designDiv{
+    width: 5%;
+    background-color: #A5A5A5;
+}
+.designDiv2{
+    width: 5%;
+    background-color: #868686;
+}
+
+.mainInfo{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 30%;
+    width: 100%;
+    margin: 5% 0 0 0;
+    padding: 1em;
+}
+
+.mainInfo > h1 {
+    font-weight: 500;
+    font-size: 4em;
+    color: #1E1E1E;
+    margin: auto;
+    user-select: none;
+}
+
+.avatar-wrapper{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100% - 2em);
+    width: auto;  /* Let the width be determined by the aspect ratio 
+    aspect-ratio: 1;  This ensures width = height 
+    border-radius: 50%;
+    margin: 0 0 0 1.5vw;
+    transition: .4s ease-in-out;
+    opacity: 0;
+}
+
+.avatar-wrapper > span{
+    color: white;
+    font-size: 1.5em;
+    user-select: none;
+}
+
+.avatar-wrapper:hover {
+    background-color: rgb(0, 0, 0);
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.avatar{
+    display: block;
+    height: 100%;
+    width: auto;
+    border-radius: 50%;
+    user-select: none;
+    margin: 0 0 0 1.5vw;
+}
+
+
+.rest{
+    width: 65%;
+    background-color: rgb(219, 219, 219);
+
+}
+
+
+.detailedInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin: 3% 0 0 7% ;
+    height: 60%;    
+    padding: 1em 1em 1em 3em;
+    border-left: solid #9D9D9D;
+    border-width: 10px;
+}
+
+.detailedInfo div{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    margin: 0 1% 0 0;
+    padding: 1em;
+}
+
+.detailedInfo div p{
+    font-weight: 400;
+    font-size: 2em;
+    color: white;
+    margin: 0 2% 0 0;
+    user-select: none;
+}
+
+.detailedInfo div input{
+    flex: 1;
+    background-color: transparent;
+    height: 80%;
+    border: none;
+    font-size: 1.5em;
+    font-weight: 400;
+    color:#1E1E1E;
+    margin: 0;
+    padding: 1%;
+}
+
+.detailedInfo div input.editable {
+    border-radius: 2px;
+    background-color: #a8a8a8;
+}
+
+
+.rest{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.product-history{
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 2%;
+    padding :1em;
+    margin: 0 5%;
+}
+
+.product-history > h1 {
+    display: flex;
+    flex: row;
+    gap: 10px;
+    color: black;
+    font-weight: 700;
+    font-size: 1.5em;
+    font-family: "Teachers", sans-serif;
+    margin: 0 1% 2% 1%;
+
+}
+
+.product-history h1 p{
+    font-weight: 400;
+    margin: 0;
+}
+
+.products {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 2%;
+    margin: 0 1% 0 1%;
+}
+
+.book {
+    width: 15%;
+    box-sizing: border-box;
+    background-color: #7a7a7a;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.book img {
+    height: 80%;
+    width: auto;
+}
+
+.book h1 {
+    font-size: 1.2em;
+    color: black;
+    margin: auto;
+    padding: 0;
+    text-align: center;
+}
+
+.edit-buttons{
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    margin: 3% 0 0 0;
+    gap: 5%;
+    padding: 1em;
+}
+
+.edit-buttons button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1E1E1E;
+    border: none;
+    padding: 1%;
+    margin: auto;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    height: 70%;
+    width: auto;
+}
+
+.edit-buttons button:hover {
+    background-color: #333;
+
+}
+
+.edit-buttons button:focus {
+    outline: none; /* Removes the default focus outline 
+    background: initial; /* Prevents transparency 
+}
+
+
+form{
+    margin: 0;
+    flex: 1;
+}
+*/

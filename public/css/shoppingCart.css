@@ -1,0 +1,116 @@
+/*
+.header-container {
+    display: flex;
+}
+
+#page-header {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    text-align: left;
+    text-shadow: 2px 2px 4px hsla(0, 0%, 0%, 0.2);
+    color: rgb(221, 109, 18);  Ensure this matches the main page 
+}
+
+#header-image {
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+}
+
+.shopping-cart {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 100px;
+    background-color: rgb(221, 158, 106);
+    padding: 20px;
+    border-radius: 13px;
+}
+
+.cart-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    background-color: rgb(221, 109, 18);
+    color: white;
+    padding: 10px 0;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 3px solid #1d0f0fb5;
+}
+
+.cart-item:hover {
+    background-color: hsl(0, 51%, 73%);
+    color: white;
+    transition: 0.5s;
+}
+
+.header-metric, .item-metric {
+    padding: 5px 10px;
+    text-align: center;
+    flex: 1;
+}
+
+.item-metric {
+    font-size: 20px;
+}
+
+.header-metric {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.remove-btn {
+    padding: 5px 10px;
+    background-color: rgb(221, 109, 18);
+    color: white;
+    border: none;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.remove-btn:hover {
+    background-color: hsl(0, 100%, 40%);
+}
+
+.remove-btn:active {
+    background-color: hsl(0, 100%, 30%);
+}
+
+.footer {
+    text-align: center;
+    font-weight: bold;
+}
+
+#shoppingCart-total {
+    font-size: 25px;
+}
+
+#checkout {
+    border-radius: 15px;
+    background-color: rgb(221, 109, 18);
+    font-size: 15px;
+    padding: 10px 30px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#checkout:hover {
+    background-color: hsl(0, 59%, 51%);
+}
+
+#checkout:active {
+    background-color: hsl(0, 59%, 61%);
+}
+
+body {
+    background-color: rgb(221, 158, 106);;
+}
+*/

@@ -1,0 +1,227 @@
+.book-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Duas colunas iguais */
+  width: 85%; /* Ajuste leve na largura para mais simetria */
+  max-width: 1200px; /* Permite um visual maior em telas grandes */
+  height: 80vh; /* Ajuste da altura */
+  background: url(project-root/public/img/book.png
+) no-repeat center center;
+  background-size: cover; 
+  box-shadow: -8px 8px 20px rgba(0, 0, 0, 0.4), inset -5px 5px 10px rgba(0, 0, 0, 0.2); /* Efeito de profundidade */
+  border-radius: 18px; /* Arredondamento para simular as bordas do livro */
+  overflow: hidden;
+  margin: 0 auto; /* Centraliza horizontalmente */
+  position: absolute; /* Centraliza na tela */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.book-background {
+  position: relative;
+  width: 85%;
+  max-width: 1200px;
+  height: 80vh;
+  margin: 50px auto; /* Mantém a margem */
+  transform: translateY(-20px); /* Move 30px para cima */
+}
+
+
+.book-page {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 18px;
+  box-shadow: -4px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Primeira Página */
+.book-page-1 {
+  background: #faf3e8; /* Quase branco */
+  top: -5px;
+  left: 65px;
+  right: 65px;
+  bottom: -5px;
+}
+
+/* Segunda Página */
+.book-page-2 {
+  background: #f7ebdb; /* Bege suave */
+  top: -8px;
+  left: 45px;
+  right: 45px;
+  bottom: -8px;
+}
+
+/* Terceira Página */
+.book-page-3 {
+  background: #f4e3c7; /* Bege médio */
+  top: -12px;
+  left: 25px;
+  right: 25px;
+  bottom: -12px;
+}
+
+/* Capa */
+.book-page-4 {
+  background: #7383fb; /* Azul substituindo marrom */
+  top: -25px;
+  left: 5px;
+  right: 5px;
+  bottom: -25px;
+}
+
+.book-left {
+  background: linear-gradient(to bottom, #7383fb, #7383fb); /* Gradiente atualizado */
+  color: #fff; /* Texto branco */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  border-right: 5px solid #c8a97e; /* Adiciona uma separação clara */
+  box-shadow: inset 0 5px 10px rgba(0, 0, 0, 0.4); /* Efeito de profundidade */
+}
+
+.book-left h1 {
+  font-size: 4em;
+  margin-bottom: 20px;
+  font-family: 'Libre Baskerville', serif; /* Fonte clássica */
+}
+
+.book-left p {
+  font-size: 1.5em;
+  line-height: 1.8;
+  margin: 0 10%;
+  font-style: italic; /* Estilo manuscrito */
+}
+
+
+.book-left h1 {
+  font-size: 4em;
+  margin-bottom: 20px;
+}
+
+.book-left p {
+  font-size: 1.5em;
+  line-height: 1.8;
+  margin: 0 10%;
+}
+
+.book-right {
+  background-color: #fff8e7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.login-form {
+  width: 100%;
+  max-width: 400px; /* Largura máxima */
+  margin: 0 auto; /* Centraliza horizontalmente */
+  padding: 20px; /* Espaçamento interno */
+  background: #fff8e7; /* Fundo claro */
+  border-radius: 10px; /* Arredondamento */
+ }
+
+
+/* Estilização geral para os campos de entrada */
+input[type="email"], input[type="password"] {
+  width: 100%; /* Ocupa toda a largura disponível */
+  padding: 12px 15px; /* Adiciona espaçamento interno */
+  margin-bottom: 20px; /* Espaço entre os campos */
+  font-size: 1em; /* Tamanho da fonte */
+  border: 2px solid #ccc; /* Borda com cinza claro */
+  border-radius: 6px; /* Borda arredondada */
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); /* Efeito de profundidade interno */
+  transition: all 0.3s ease-in-out; /* Suavidade nas interações */
+}
+
+/* Mudança de estilo ao focar no campo */
+input[type="email"]:focus, input[type="password"]:focus {
+  border-color: #7383fb; /* Cor da borda ao focar */
+  box-shadow: 0 0 5px rgba(115, 131, 251, 0.5); /* Efeito de brilho */
+  outline: none; /* Remove o contorno padrão */
+}
+
+/* Estilização dos placeholders */
+input::placeholder {
+  color: #aaa; /* Cinza claro */
+  font-style: italic; /* Estilo manuscrito */
+}
+
+/* Ajustar o alinhamento do formulário */
+.login-form label {
+  display: block; /* Coloca o texto acima do campo */
+  margin-bottom: 8px; /* Espaçamento abaixo do texto */
+  font-weight: bold; /* Negrito para destaque */
+  color: #fa53da; /* Mesma cor dos outros elementos */
+}
+
+
+
+/* Alinhamento da checkbox e texto */
+.remember-me {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.remember-me input[type="checkbox"] {
+  margin-right: 5px; /* Espaço mínimo entre checkbox e texto */
+  transform: scale(1.2); /* Aumenta ligeiramente a checkbox */
+}
+
+/* Botões */
+.form-buttons {
+  display: flex;
+  justify-content: space-between; /* Posiciona os botões lado a lado */
+  align-items: center;
+  gap: 10px; /* Espaço entre os botões */
+  margin-top: 20px;
+}
+
+.btn-submit {
+  flex: 0 0 48%; /* Reduz largura para metade da linha */
+  background-color: #fa53da; /* Cor de fundo azul */
+  color: #fff; /* Texto branco */
+  height: 50px; /* Define a altura fixa do botão */
+  border: 2px solid #fff; /* Borda na mesma cor do fundo */
+  border-radius: 6px; /* Arredondamento */
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  line-height: 50px; /* Centraliza o texto verticalmente dentro do botão */
+ }
+
+.btn-submit:hover {
+  background-color: #7383fb; /* Cor mais clara no hover */
+  border-color: #7383fb; /* Borda azul */
+}
+
+
+.btn-register {
+  flex: 0 0 48%; /* Reduz largura para metade da linha */
+  background-color: #fff;
+  color: #fa53da;
+  padding: 10px;
+  border: 2px solid #fa53da; /* Inverte esquema de cores */
+  border-radius: 6px;
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn-register:hover {
+  background-color: #f2e9e4;
+}

@@ -1,0 +1,141 @@
+/* Estrutura base do layout */
+.register-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Duas colunas iguais */
+    width: 85%; /* Ajuste leve na largura para mais simetria */
+    max-width: 1200px; /* Permite um visual maior em telas grandes */
+    height: 80vh; /* Ajuste da altura */
+    background: url(project-root/public/img/book.png
+  ) no-repeat center center;
+    background-size: cover; 
+    box-shadow: -8px 8px 20px rgba(0, 0, 0, 0.4), inset -5px 5px 10px rgba(0, 0, 0, 0.2); /* Efeito de profundidade */
+    border-radius: 18px; /* Arredondamento para simular as bordas do livro */
+    overflow: hidden;
+    margin: 0 auto; /* Centraliza horizontalmente */
+    position: absolute; /* Centraliza na tela */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  /* Estilo do lado esquerdo (Register-left) */
+  .register-left {
+    background-color: #f4ede1; /* Cor clara */
+    color: #fa53da; /* Texto escuro */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    border-right: 3px solid #c8a97e; /* Separação com a outra página */
+  }
+  
+  .register-left h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  .register-left p {
+    font-size: 1.2em;
+    text-align: center;
+    line-height: 1.8;
+    margin: 0 10%;
+  }
+  
+  .register-right {
+    background: linear-gradient(to bottom, #7383fb, #7383fb); /* Gradiente para simular a textura */
+    color: #fff; /* Texto branco */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    border-left: 3px solid #c8a97e; /* Separação com a página da esquerda */
+    box-shadow: inset 0 5px 10px rgba(0, 0, 0, 0.4); /* Efeito de profundidade */
+  }
+  
+  .register-right h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-family: 'Libre Baskerville', serif; /* Fonte clássica */
+    text-transform: uppercase;
+  }
+  
+  .register-right p {
+    font-size: 1.0em;
+    line-height: 1.8;
+    margin: 0 10%;
+    font-style: italic; /* Adiciona um estilo manuscrito */
+  }
+  
+
+  .register-right .btn-login {
+    width: 100%;
+    padding: 10px;
+    background-color: #fff; /* Fundo branco */
+    color: #fa53da; /* Texto escuro */
+    border: 2px solid #fa53da; /* Borda escura */
+    border-radius: 6px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .register-right .btn-login:hover {
+    background-color: #f2e9e4;
+  }
+  
+
+  /* Estilo do formulário de registro */
+  .register-form {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .register-form label {
+    display: block;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  
+  .register-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+  }
+  
+  /* Botão de registro */
+  .register-form .btn-submit {
+    width: 100%;
+    padding: 5px;
+    background-color: #fa53da; /* Botão com cor intermediária */
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .register-form .btn-submit:hover {
+    background-color: #7383fb; /* Cor mais clara no hover */
+  }
+  
+  /* Outros ajustes visuais */
+  .form-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
