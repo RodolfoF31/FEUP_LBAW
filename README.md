@@ -4,10 +4,10 @@ Porto's Bookshelf is an online bookshop that offers a wide range of books, allow
 
 ## Project Components
 
-* [ER: Requirements Specification](er)
-* [EBD: Database Specification](ebd)
-* [EAP: Architecture Specification and Prototype](eap)
-* [PA: Product and Presentation](pa)
+* [ER: Requirements Specification](er.pdf)
+* [EBD: Database Specification](ebd.pdf)
+* [EAP: Architecture Specification and Prototype](eap.pdf)
+* [PA: Product and Presentation](pa.pdf)
 
 ## Artefacts Checklist
 
